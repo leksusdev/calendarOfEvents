@@ -2,8 +2,6 @@ module github.com/leksusdev/calendarOfEvents
 
 go 1.25
 
-require github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
-
 require (
 	github.com/c-bata/go-prompt v0.2.6
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510

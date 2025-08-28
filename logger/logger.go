@@ -3,6 +3,7 @@ package logger
 import (
 	"log"
 	"os"
+	"path/filepath"
 )
 
 var (
@@ -12,8 +13,12 @@ var (
 )
 
 func Init(filename string) error {
-	var err error
-	logFile, err = os.OpenFile(filename, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+	dir := filepath.Dir(filename)
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		return err
+	}
+
+	logFile, err := os.OpenFile(filename, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
 		return err
 	}

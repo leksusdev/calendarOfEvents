@@ -1,0 +1,42 @@
+{
+  "2cebe8f4-5e3c-4c67-b9d7-b9b7db88fc7f": {
+    "id": "2cebe8f4-5e3c-4c67-b9d7-b9b7db88fc7f",
+    "title": "тренировка",
+    "start_at": "2025-08-12T07:00:00Z",
+    "priority": "high",
+    "reminder": {
+      "message": "обязательно погулять",
+      "at": "2025-08-27T13:02:37Z",
+      "sent": true
+    }
+  },
+  "7b9fa32d-e781-4215-80cb-efb5187b8609": {
+    "id": "7b9fa32d-e781-4215-80cb-efb5187b8609",
+    "title": "Проверка",
+    "start_at": "2025-08-23T09:00:00Z",
+    "priority": "low",
+    "reminder": null
+  },
+  "8eb9c8e6-4ee8-4947-b12e-045e718d4f3a": {
+    "id": "8eb9c8e6-4ee8-4947-b12e-045e718d4f3a",
+    "title": "вечерняя прогулка",
+    "start_at": "2025-08-28T16:00:00Z",
+    "priority": "low",
+    "reminder": {
+      "message": "проглка с собкой",
+      "at": "2025-08-28T15:16:58Z",
+      "sent": true
+    }
+  },
+  "b457c3fd-1823-473c-9fd4-5c680c7858a0": {
+    "id": "b457c3fd-1823-473c-9fd4-5c680c7858a0",
+    "title": "стрижка",
+    "start_at": "2025-08-19T15:00:00Z",
+    "priority": "high",
+    "reminder": {
+      "message": "поминальная",
+      "at": "2025-08-19T12:41:47Z",
+      "sent": true
+    }
+  }
+}

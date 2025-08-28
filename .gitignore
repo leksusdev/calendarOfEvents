@@ -1,0 +1,11 @@
+# IDE (Goland/IntelliJ)
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.zip
